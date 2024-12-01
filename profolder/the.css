@@ -1,0 +1,24 @@
+.toggle {
+  position: relative;
+  width: 60px;
+  height: 30px;
+}
+
+.toggle-input {
+  display: none;
+}
+
+.toggle-label {
+  display: block;
+  position: absolute;
+  background-color: #4CAF50; /* Green color */
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toggle-input:checked + .toggle-label {
+  background-color: #ccc; /* Grey color when toggled */
+}

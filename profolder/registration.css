@@ -1,0 +1,136 @@
+#title1{
+    position: relative;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: bold;
+    top: 15px;
+}
+#firstname{
+    position: relative;
+    color: rgb(202, 202, 202);
+    top: 20px;
+    left: 110px;
+}
+#firstName{
+    background-color: rgb(169, 108, 215);
+    position: relative;
+    height: 50px;
+    width: 300px;
+    border-color: rgba(89, 226, 43, 0);
+    border-radius: 90px;
+    left: 100px;
+    top: 20px;
+}
+#lastname{
+    color: rgb(202, 202, 202);
+    position: relative;
+    top: 30px;
+    left: 110px;
+}
+#lastName{
+    background-color: rgb(169, 108, 215);
+    position: relative;
+    height: 50px;
+    width: 300px;
+    border-color: rgba(89, 226, 43, 0);
+    border-radius: 80px;
+    top: 30px;
+    left: 100px;
+}
+#genderlabel{
+    color: rgb(202, 202, 202);
+    position: relative;
+    top: 30px;
+    left: 110px;
+}
+.male1{
+    position: relative;
+    background-color: rgba(43, 226, 141, 0);
+    color: rgb(202, 202, 202);
+    font-size: 15px;
+    top: 30px;
+    left: 110px;
+}
+.female1{
+    position: relative;
+    background-color: rgba(43, 226, 141, 0);
+    color: rgb(202, 202, 202);
+    font-size: 15px;
+    top: 30px;
+    left: 150px;
+}
+#emaillabel{
+    color: rgb(202, 202, 202);
+    position: relative;
+    top: 15px;
+    left: 110px;
+}
+#email{
+    background-color: rgb(169, 108, 215);
+    position: relative;
+    height: 50px;
+    width: 300px;
+    border-radius: 80px;
+    top: 20px;
+    left: 100px;
+    border-color: rgba(255, 0, 0, 0);
+}
+#passwordlabel{
+    color: rgb(202, 202, 202);
+    position: relative;
+    top: 15px;
+    left: 110px;
+}
+#password{
+    background-color: rgb(169, 108, 215);
+    position: relative;
+    height: 50px;
+    width: 300px;
+    border-color: rgba(89, 226, 43, 0);
+    border-radius: 80px;
+    top: 20px;
+    left: 100px;
+}
+#phonelabel{
+    color: rgb(202, 202, 202);
+    position: relative;
+    top: 20px;
+    left: 110px;
+}
+#number{
+    background-color: rgb(169, 108, 215);
+    position: relative;
+    height: 50px;
+    width: 300px;
+    border-color: rgba(89, 226, 43, 0);
+    border-radius: 80px;
+    top: 20px;
+    left: 100px;
+}
+.btn{
+    position: relative;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 300px;
+    border-radius: 60px;
+    border-color: rgba(240, 255, 255, 0);
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    top: 40px;
+    left: 100px;
+}
+
+.card{
+    position: relative;
+    background-color: rgba(100, 148, 237, 0);
+    color: rgb(0, 0, 0);
+    height: 730px;
+    width: 500px;
+    left: 350px;
+    top: 40px;
+    border-radius: 15px;
+    backdrop-filter: blur(14px);
+    border: 1px solid rgb(169, 165, 165);
+}

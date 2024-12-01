@@ -1,0 +1,36 @@
+    <input class="input33" placeholder="text">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .input33 {
+    border: 2px solid transparent;
+    width: 15em;
+    position: absolute;
+    top: 420px;
+    left: 1085px;
+    height: 2.5em;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.5s;
+  }
+  
+  .input33:hover,
+  .input33:focus {
+    border: 2px solid #4A9DEC;
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+    background-color: white;
+  }

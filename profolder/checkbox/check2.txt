@@ -1,0 +1,59 @@
+<label class="cyberpunk-checkbox-label22">
+    <input type="checkbox" class="cyberpunk-checkbox22">
+    Check me</label>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .cyberpunk-checkbox22 {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #30cfd0;
+    border-radius: 5px;
+    background-color: transparent;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .cyberpunk-checkbox22:before {
+    content: "";
+    background-color: #30cfd0;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .cyberpunk-checkbox22:checked:before {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .cyberpunk-checkbox-label22 {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: sans-serif;
+    cursor: pointer;
+    position: absolute;
+    top: 420px;
+    left: 700px;
+    z-index: 3;
+    user-select: none;
+    display: flex;
+    align-items: center;
+  }

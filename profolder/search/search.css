@@ -1,0 +1,366 @@
+#htmlpageid{
+    background-color: rgb(255, 255, 255);
+    height: 2600px;
+  }
+  
+  
+  
+  #tempname{
+  color: #0026ff;
+  position: absolute;
+  font-size: 60px;
+  left: 500px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  }
+  
+  
+  
+  
+  
+  .card_bp1 {
+    position: absolute;
+    top: 255px;
+    left: 150px;
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    background: #000000;
+  }
+  .search11 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 230px;
+    top: 420px;
+    font-family: sans-serif;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .search__input11 {
+    font-family: inherit;
+    font-size: inherit;
+    background-color: #f4f2f2;
+    border: none;
+    color: #646464;
+    padding: 0.7rem 1rem;
+    border-radius: 30px;
+    width: 12em;
+    transition: all ease-in-out .5s;
+    margin-right: -2rem;
+  }
+  
+  .search__input11:hover, .search__input11:focus {
+    box-shadow: 0 0 1em #00000013;
+  }
+  
+  .search__input11:focus {
+    outline: none;
+    background-color: #f0eeee;
+  }
+  
+  .search__input11::-webkit-input-placeholder {
+    font-weight: 100;
+    color: #ccc;
+  }
+  
+  .search__input11:focus + .search__button11 {
+    background-color: #f0eeee;
+  }
+  
+  .search__button11 {
+    border: none;
+    background-color: #f4f2f2;
+    margin-top: .1em;
+  }
+  
+  .search__button11:hover {
+    cursor: pointer;
+  }
+  
+  .search__icon11 {
+    height: 1.3em;
+    width: 1.3em;
+    fill: #b4b4b4;
+  }
+  
+  button11 {
+    font-family: sans-serif;
+    height: 20px;
+    width: 57px;
+    font-size: 14px;
+    padding: 1em 2.7em;
+    font-weight: 500;
+    background: #1f2937;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 580px;
+    left: 260px;
+    overflow: hidden;
+    border-radius: 0.6em;
+    cursor: pointer;
+  }
+  
+  .gradient11 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 0.6em;
+    margin-top: -0.25em;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.3)
+    );
+  }
+  
+  .label11 {
+    position: relative;
+    top: -1px;
+  }
+  
+  .transition11 {
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-duration: 500ms;
+    background-color: rgba(16, 185, 129, 0.6);
+    border-radius: 9999px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  button11:hover .transition11 {
+    width: 14em;
+    height: 14em;
+  }
+  
+  button11:active {
+    transform: scale(0.97);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .card_bp2 {
+    position: absolute;
+    top: 255px;
+    left: 580px;
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    background: #000000;
+  }
+  .InputContainer22 {
+    width: 210px;
+    height: 50px;
+    position: absolute;
+    top: 410px;
+    left: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom,rgb(227, 213, 255),rgb(255, 231, 231));
+    border-radius: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+  }
+  
+  .input22 {
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    caret-color: rgb(255, 81, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding-left: 15px;
+    letter-spacing: 0.8px;
+    color: rgb(19, 19, 19);
+    font-size: 13.4px;
+  }
+  
+  button22 {
+    font-family: sans-serif;
+    height: 20px;
+    width: 57px;
+    font-size: 14px;
+    padding: 1em 2.7em;
+    font-weight: 500;
+    background: #1f2937;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 580px;
+    left: 685px;
+    overflow: hidden;
+    border-radius: 0.6em;
+    cursor: pointer;
+  }
+  .gradient22 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 0.6em;
+    margin-top: -0.25em;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.3)
+    );
+  }
+  
+  .label22 {
+    position: relative;
+    top: -1px;
+  }
+  
+  .transition22 {
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-duration: 500ms;
+    background-color: rgba(16, 185, 129, 0.6);
+    border-radius: 9999px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  button22:hover .transition22 {
+    width: 14em;
+    height: 14em;
+  }
+  
+  button22:active {
+    transform: scale(0.97);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+
+  .card_bp3 {
+    position: absolute;
+    top: 255px;
+    left: 1010px;
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    background: #000000;
+  }
+
+
+  .input33 {
+    border: 2px solid transparent;
+    width: 15em;
+    position: absolute;
+    top: 420px;
+    left: 1085px;
+    height: 2.5em;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.5s;
+  }
+  
+  .input33:hover,
+  .input33:focus {
+    border: 2px solid #4A9DEC;
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+    background-color: white;
+  }
+  button33 {
+    font-family: sans-serif;
+    height: 20px;
+    width: 57px;
+    font-size: 14px;
+    padding: 1em 2.7em;
+    font-weight: 500;
+    background: #1f2937;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 580px;
+    left: 1125px;
+    overflow: hidden;
+    border-radius: 0.6em;
+    cursor: pointer;
+  }
+  .gradient33 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 0.6em;
+    margin-top: -0.25em;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.3)
+    );
+  }
+  
+  .label33 {
+    position: relative;
+    top: -1px;
+  }
+  
+  .transition33 {
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-duration: 500ms;
+    background-color: rgba(16, 185, 129, 0.6);
+    border-radius: 9999px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  button33:hover .transition33 {
+    width: 14em;
+    height: 14em;
+  }
+  
+  button33:active {
+    transform: scale(0.97);
+  }
+  
+
+
+
+
+
+ 
+
+
+ 

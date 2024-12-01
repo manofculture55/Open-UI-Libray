@@ -1,0 +1,82 @@
+
+#headerai{
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #ffffff;
+    top: 50px;
+    left: 100px;
+    z-index: 2;
+}
+#headdesc{
+    color: #d5d3ff;
+    position: absolute;
+    font-size: 25px;
+    top: 230px;
+    left: 100px;
+    z-index: 2;
+    font-family: sans-serif;
+}
+
+
+
+
+.form-control{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 500px;
+    border-radius: 80px;
+    border-width: 10px;
+    border-color: #0900b5;
+    font-family: sans-serif;
+    height: 70px;
+    z-index: 2;
+    top: -40px;
+    left: 500px;
+}
+.btn-warning{
+    background-color: #ffffff;
+    position: absolute;
+    top: 30px;
+    left: 670px;
+    width: 170px;
+    color: #0900b5;
+    height: 50px;
+    font-family: sans-serif;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: #0900b5;
+    z-index: 2;
+}
+#div1{
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    height: 400px;
+    width: 1473px;
+    z-index: 1;
+    background-color: #ffffff;
+}
+
+
+.container {
+    margin-top: 20px;
+}
+
+.explanation {
+    font-family: monospace;
+    color: #0900b5;
+    background-color: #c3c0ff;
+    padding: 10px;
+    z-index: 2;
+    position: absolute;
+    top: 560px;
+    font-size: 20px;
+    left: 200px;
+    border-radius: 5px;
+    width: 70%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the box horizontally */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+

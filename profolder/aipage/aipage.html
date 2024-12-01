@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="aipage.css">
+</head>
+<body style="background-color: #0900b5;">
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <pre id="headerai">Project Pixel
+AI Component Generator
+                </pre>
+                <a id="headdesc">Genarate your UI component by yourself with new Project Pixel AI</a>
+                <div id="div1">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="       Red button with..." id="topicInput" />
+                    <button class="btn-warning" onclick="getExplanation()">
+                        Explain
+                    </button>
+                </div>
+                </div>
+                <pre id="explanation" class="explanation"></pre>
+            </div>
+        </div>
+    </div>
+
+    <script src="aipage.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+.row{
+    position: relative;
+    width: 460px;
+    height: 520px;
+    left: 530px;
+    top: 120px;
+    border-radius: 15px;
+    backdrop-filter: blur(14px);
+    border: 1px solid rgb(169, 165, 165);
+}
+.card-header{
+    position: relative;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    background-color: rgba(9, 243, 75, 0);
+    border-radius: 20px;
+    top: 25px;
+    left: 0px;
+    text-align: center;
+}
+.btn{
+    position: relative;
+    color: rgb(0, 0, 0);
+    left: 90px;
+    top: 160px;
+    height: 50px;
+    width: 300px;
+    border-radius: 60px;
+    border-color: rgba(240, 255, 255, 0);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.form-control{
+    background-color: rgb(108, 174, 215);
+    position: relative;
+    height: 50px;
+    width: 300px;
+    left: 200px;
+    border-color: rgba(89, 226, 43, 0);
+    border-radius: 80px;
+}
+
+
+
+
+#email{
+    position: relative;
+    left: 40px;
+    top: 50px;
+}
+#password{
+    position: relative;
+    top: 110px;
+    left: 10px;
+}
+#emaillabel{
+    position: relative;
+    left: 85px;
+    top: 0px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    
+}
+#passwordlabel{
+    position: relative;
+    left: 85px;
+    top: 60px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+#signup{
+    position: absolute;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 255, 0);
+    font-family: sans-serif;
+    left: 645px;
+    top: 590px;
+    font-size: 17px;
+}
